@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>CrunchifyRESTJerseyExample</groupId>
-	<artifactId>CrunchifyRESTJerseyExample</artifactId>
+	<artifactId>RestServices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
@@ -166,7 +166,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.sources>src</sonar.sources>
-		<sonar.tests>/Users/johngold/eclipse-workspace/CrunchifyRESTJerseyExample/test/</sonar.tests>
+		<sonar.tests>/Users/johngold/eclipse-workspace/RestServvices/test/</sonar.tests>
 		<sonar.scm.provider>git</sonar.scm.provider>
 		<sonar.jacoco.reportPaths>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPaths>
 		<sonar.surefire.reportsPath>../${project.artifactId}.test/target/surefire-reports/</sonar.surefire.reportsPath>
