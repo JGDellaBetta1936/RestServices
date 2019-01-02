@@ -5,7 +5,7 @@ import java.util.Arrays;
 import org.apache.log4j.Logger;
 
 public class ArrayContainsNumber {
-	private static Logger log = Logger.getLogger(LottoGenerator.class.getName());
+	static Logger log = Logger.getLogger(ArrayContainsNumber.class.getName());
 	private static String question1 = "Does array %s has %s?  %b %n";
 	private static String question2 = "Does array %s contains %s?  %b %n";
 	private ArrayContainsNumber () {
